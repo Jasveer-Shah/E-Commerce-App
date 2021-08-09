@@ -1,6 +1,6 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import { Background, Home, Cart, Header, Browser, Browse } from './components';
+import { Background, Home, Cart, Header, Browse } from './components/index';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <Background />
         <Switch>
           <Route exact path='/cart' component={Cart} />
-          <Route exact path='/beowse' component={Browse} />
+          <Route exact path='/browser' component={Browse} />
           <Route exact path='/' component={Home} />
         </Switch>
       </Router>

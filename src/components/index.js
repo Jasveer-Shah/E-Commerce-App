@@ -1,5 +1,4 @@
 import Background from "./Background";
-
 import Cart from './Cart';
 import Header from './Header';
 import Home from './Home';

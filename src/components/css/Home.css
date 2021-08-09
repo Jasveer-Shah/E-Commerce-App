@@ -1,0 +1,15 @@
+.main img {
+    width:  calc(100% - 15vw);
+    margin-top: 10vh;
+}
+
+.intro {
+    position:absolute;
+    margin-top: 25vh;
+    margin-left: 40px;
+    font-size: 1.5em;
+}
+
+.intro h1, .intro h2 {
+    font-weight: 100;
+}
