@@ -1,15 +1,23 @@
 .main img {
     width:  calc(100% - 15vw);
     margin-top: 10vh;
+    position: absolute;
+    margin-top:10vh;
+    width: calc(100% - 15vw);
+    max-width: 1200px;
+    max-height: 80vh;
+    z-index: -1;
+    right: 15vw;
 }
 
-.intro {
+ .iphone_intro {
     position:absolute;
-    margin-top: 25vh;
+    margin-top: 30vh;
     margin-left: 40px;
+    width: 65vw;
     font-size: 1.5em;
 }
 
-.intro h1, .intro h2 {
+.iphone_intro h1, .iphone_ intro h2 {
     font-weight: 100;
 }

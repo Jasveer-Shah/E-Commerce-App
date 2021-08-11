@@ -31,3 +31,25 @@ button {
   padding: 20px 40px;
   margin-top: 40px;
 }
+
+input {
+  border: none;
+  background-color: transparent;
+  outline:none;
+  padding: 10px 15px;
+  width: 100%;
+}
+
+.productListing {
+  width: 60vw;
+  height: 100px;
+  align-items: center;
+  background: white;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.productListing img {
+  max-height: 100%;
+}

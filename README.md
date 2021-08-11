@@ -17,6 +17,9 @@ You will also see any lint errors in the console.
 
 
 npm install redux react-redux redux-thunk react-router-dom
+when I impliment the db.collection for bringing the data from firestore, it allow us to use firesote
+npm install react-firebase-hooks
+npm i firebase
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\

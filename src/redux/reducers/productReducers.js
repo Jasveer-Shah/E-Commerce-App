@@ -1,11 +1,10 @@
-import { ADD_PRODUCT, REMOVE_PRODUCT } from "../types/productTypes"
+import { ADD_PRODUCT, REMOVE_PRODUCT } from "../types/productypes"
 
 
-const productReducer = (state = [], { type, payload }) => {
+export const productReducer = (state = [], { type, payload }) => {
 
-    switch (action.type) {
+    switch (type) {
         case ADD_PRODUCT:
-
             //when an item is gonna add to the cart it will have an cart id and product id
             // check the cartActions.js
             return [...state, {
@@ -20,4 +19,3 @@ const productReducer = (state = [], { type, payload }) => {
     }
 }
 
-export default productReducer
